@@ -30,6 +30,15 @@ set matchtime=2               " Bracket blinking
 set novisualbell              " No blinking
 set noerrorbells              " No noise.
 set vb t_vb=                  " disable any beeps or flashes on error
+
+set laststatus=2              " always show status line.
+set shortmess=atI             " shortens messages
+set showcmd                   " display an incomplete command in statusline
+
+set statusline=%<%f\          " custom statusline
+set stl+=[%{&ff}]             " show fileformat
+set stl+=%y%m%r%=
+set stl+=%-14.(%l,%c%V%)\ %P
 " "}}}
 
 " Scripts and Bundles " {{{

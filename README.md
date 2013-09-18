@@ -1,5 +1,7 @@
 # [gallilama](http://github.com/gallilama)'s [Vim configuration](http://github.com/gallilama/vimfiles)
 
+Many thanks to # [gmarik](http://github.com/gmarik) for providing the foundation!
+
 My setup:
 
     $ mkdir -p ~/projects/vimfiles && cd ~/projects/vimfiles 

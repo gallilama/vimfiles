@@ -55,6 +55,7 @@ Bundle 'gmarik/vundle'
 
 " Colorscheme
 Bundle 'altercation/vim-colors-solarized'
+colorscheme solarized
 
 " Programming
 " Snippets
